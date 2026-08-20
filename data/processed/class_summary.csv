@@ -1,0 +1,9 @@
+split,label,image_count,total_size_mb
+test,Glioma,87,2.49
+test,Meningioma,115,2.68
+test,No tumor,105,1.41
+test,Pituitary,74,5.7
+train,Glioma,826,19.42
+train,Meningioma,822,19.33
+train,No tumor,395,11.03
+train,Pituitary,827,26.22

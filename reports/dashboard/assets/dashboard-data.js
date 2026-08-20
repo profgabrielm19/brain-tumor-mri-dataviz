@@ -1,0 +1,867 @@
+window.DASHBOARD_DATA = {
+  "title": "Brain Tumor MRI Dataviz",
+  "generated_from": "data/raw",
+  "total_images": 3251,
+  "total_size_mb": 88.29,
+  "labels": [
+    "Glioma",
+    "Meningioma",
+    "No tumor",
+    "Pituitary"
+  ],
+  "splits": [
+    "train",
+    "test"
+  ],
+  "counts": {
+    "train": {
+      "Glioma": 826,
+      "Meningioma": 822,
+      "No tumor": 395,
+      "Pituitary": 827
+    },
+    "test": {
+      "Glioma": 87,
+      "Meningioma": 115,
+      "No tumor": 105,
+      "Pituitary": 74
+    }
+  },
+  "sizes_mb": {
+    "train": {
+      "Glioma": 19.42,
+      "Meningioma": 19.33,
+      "No tumor": 11.03,
+      "Pituitary": 26.22
+    },
+    "test": {
+      "Glioma": 2.49,
+      "Meningioma": 2.68,
+      "No tumor": 1.41,
+      "Pituitary": 5.7
+    }
+  },
+  "summary": [
+    {
+      "split": "test",
+      "label": "Glioma",
+      "image_count": 87,
+      "total_size_mb": 2.49
+    },
+    {
+      "split": "test",
+      "label": "Meningioma",
+      "image_count": 115,
+      "total_size_mb": 2.68
+    },
+    {
+      "split": "test",
+      "label": "No tumor",
+      "image_count": 105,
+      "total_size_mb": 1.41
+    },
+    {
+      "split": "test",
+      "label": "Pituitary",
+      "image_count": 74,
+      "total_size_mb": 5.7
+    },
+    {
+      "split": "train",
+      "label": "Glioma",
+      "image_count": 826,
+      "total_size_mb": 19.42
+    },
+    {
+      "split": "train",
+      "label": "Meningioma",
+      "image_count": 822,
+      "total_size_mb": 19.33
+    },
+    {
+      "split": "train",
+      "label": "No tumor",
+      "image_count": 395,
+      "total_size_mb": 11.03
+    },
+    {
+      "split": "train",
+      "label": "Pituitary",
+      "image_count": 827,
+      "total_size_mb": 26.22
+    }
+  ],
+  "samples": {
+    "train:Glioma": [
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (1).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (1).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (10).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (10).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (100).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (100).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (101).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (101).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (102).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (102).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (103).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (103).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (104).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (104).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (105).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (105).jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "train:Meningioma": [
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (10).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (10).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (100).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (100).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (101).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (101).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (102).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (102).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (103).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (103).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (104).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (104).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (105).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (105).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Meningioma",
+        "split": "train",
+        "file_name": "m (106).jpg",
+        "path": "../../data/raw/Training/meningioma_tumor/m (106).jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "train:No tumor": [
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "1.jpg",
+        "path": "../../data/raw/Training/no_tumor/1.jpg",
+        "width": 350,
+        "height": 350
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "2.jpg",
+        "path": "../../data/raw/Training/no_tumor/2.jpg",
+        "width": 350,
+        "height": 350
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "3.jpg",
+        "path": "../../data/raw/Training/no_tumor/3.jpg",
+        "width": 605,
+        "height": 613
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "4.jpg",
+        "path": "../../data/raw/Training/no_tumor/4.jpg",
+        "width": 562,
+        "height": 592
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "5.jpg",
+        "path": "../../data/raw/Training/no_tumor/5.jpg",
+        "width": 442,
+        "height": 442
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "6.jpg",
+        "path": "../../data/raw/Training/no_tumor/6.jpg",
+        "width": 630,
+        "height": 630
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "7.jpg",
+        "path": "../../data/raw/Training/no_tumor/7.jpg",
+        "width": 400,
+        "height": 442
+      },
+      {
+        "label": "No tumor",
+        "split": "train",
+        "file_name": "8.jpg",
+        "path": "../../data/raw/Training/no_tumor/8.jpg",
+        "width": 220,
+        "height": 212
+      }
+    ],
+    "train:Pituitary": [
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (1).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (1).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (10).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (10).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (100).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (100).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (101).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (101).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (102).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (102).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (103).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (103).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (104).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (104).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "train",
+        "file_name": "p (105).jpg",
+        "path": "../../data/raw/Training/pituitary_tumor/p (105).jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "test:Glioma": [
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(20).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(20).jpg",
+        "width": 248,
+        "height": 274
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(21).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(21).jpg",
+        "width": 544,
+        "height": 564
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(22).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(22).jpg",
+        "width": 490,
+        "height": 625
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(23).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(23).jpg",
+        "width": 200,
+        "height": 234
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(24).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(24).jpg",
+        "width": 355,
+        "height": 399
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(25).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(25).jpg",
+        "width": 541,
+        "height": 477
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(26).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(26).jpg",
+        "width": 620,
+        "height": 415
+      },
+      {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(27).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(27).jpg",
+        "width": 554,
+        "height": 554
+      }
+    ],
+    "test:Meningioma": [
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(1).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(1).jpg",
+        "width": 440,
+        "height": 278
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(10).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(10).jpg",
+        "width": 257,
+        "height": 307
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(100).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(100).jpg",
+        "width": 228,
+        "height": 221
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(102).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(102).jpg",
+        "width": 212,
+        "height": 237
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(106).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(106).jpg",
+        "width": 528,
+        "height": 581
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(107).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(107).jpg",
+        "width": 295,
+        "height": 394
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(109).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(109).jpg",
+        "width": 219,
+        "height": 234
+      },
+      {
+        "label": "Meningioma",
+        "split": "test",
+        "file_name": "image(11).jpg",
+        "path": "../../data/raw/Testing/meningioma_tumor/image(11).jpg",
+        "width": 262,
+        "height": 308
+      }
+    ],
+    "test:No tumor": [
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(1).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(1).jpg",
+        "width": 236,
+        "height": 236
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(10).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(10).jpg",
+        "width": 236,
+        "height": 260
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(100).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(100).jpg",
+        "width": 314,
+        "height": 258
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(101).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(101).jpg",
+        "width": 225,
+        "height": 259
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(102).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(102).jpg",
+        "width": 224,
+        "height": 262
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(103).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(103).jpg",
+        "width": 314,
+        "height": 260
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(104).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(104).jpg",
+        "width": 278,
+        "height": 253
+      },
+      {
+        "label": "No tumor",
+        "split": "test",
+        "file_name": "image(11).jpg",
+        "path": "../../data/raw/Testing/no_tumor/image(11).jpg",
+        "width": 236,
+        "height": 236
+      }
+    ],
+    "test:Pituitary": [
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(1).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(1).jpg",
+        "width": 488,
+        "height": 512
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(10).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(10).jpg",
+        "width": 400,
+        "height": 400
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(11).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(11).jpg",
+        "width": 685,
+        "height": 681
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(13).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(13).jpg",
+        "width": 202,
+        "height": 202
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(15).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(15).jpg",
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(18).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(18).jpg",
+        "width": 436,
+        "height": 429
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(19).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(19).jpg",
+        "width": 502,
+        "height": 502
+      },
+      {
+        "label": "Pituitary",
+        "split": "test",
+        "file_name": "image(2).jpg",
+        "path": "../../data/raw/Testing/pituitary_tumor/image(2).jpg",
+        "width": 488,
+        "height": 512
+      }
+    ]
+  },
+  "notebook_views": {
+    "sample_grid": [
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (1).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (1).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (10).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (10).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (100).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (100).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (101).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (101).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (102).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (102).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (103).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (103).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (104).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (104).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (105).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (105).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (106).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (106).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (107).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (107).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (108).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (108).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (109).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (109).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (11).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (11).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (110).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (110).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (111).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (111).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (112).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (112).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (113).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (113).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (114).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (114).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (115).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (115).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (116).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (116).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (117).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (117).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (118).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (118).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (119).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (119).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (12).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (12).jpg",
+        "width": 512,
+        "height": 512
+      },
+      {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (120).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (120).jpg",
+        "width": 512,
+        "height": 512
+      }
+    ],
+    "comparison": {
+      "train": {
+        "label": "Glioma",
+        "split": "train",
+        "file_name": "gg (1).jpg",
+        "path": "../../data/raw/Training/glioma_tumor/gg (1).jpg",
+        "width": 512,
+        "height": 512
+      },
+      "test": {
+        "label": "Glioma",
+        "split": "test",
+        "file_name": "image(20).jpg",
+        "path": "../../data/raw/Testing/glioma_tumor/image(20).jpg",
+        "width": 248,
+        "height": 274
+      }
+    }
+  },
+  "article": {
+    "title": "Convolutional Neural Network Model for Classification and Prediction of Brain Tumor Based on Magnetic Resonance Imaging",
+    "authors": [
+      "Gabriel Moraes de Oliveira",
+      "Elisangela Gisele do Carmo"
+    ],
+    "journal": "Revista de Engenharia e Tecnologia",
+    "issue": "Vol. 17 No. 1 (2025): Publicacao Continua",
+    "published": "2025-02-21",
+    "section": "Artigos",
+    "license": "Creative Commons Atribuicao 4.0 Internacional",
+    "keywords": [
+      "Computer Vision",
+      "Convolutional Neural Network",
+      "Deep Learning",
+      "Magnetic Resonance Imaging"
+    ],
+    "url": "https://revistas.uepg.br/index.php/ret/en/article/view/24630",
+    "pdf_url": "https://revistas.uepg.br/index.php/ret/en/article/view/24630/209209219515",
+    "summary": "O artigo apresenta uma abordagem experimental com rede neural convolucional de cinco camadas, desenvolvida no Google Colab com Keras e TensorFlow, para classificacao de tumores cerebrais em imagens de ressonancia magnetica."
+  }
+};

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brain Tumor MRI Dataviz</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">MRI Dataset</p>
+          <h1>Brain Tumor MRI Dataviz</h1>
+          <p class="subtitle">Distribuicao, cobertura e amostras visuais do dataset de imagens cerebrais por classe e conjunto.</p>
+        </div>
+        <div class="metric-grid" aria-label="Resumo do dataset">
+          <article>
+            <span>Total</span>
+            <strong id="totalImages">-</strong>
+            <small>imagens</small>
+          </article>
+          <article>
+            <span>Volume</span>
+            <strong id="totalSize">-</strong>
+            <small>MB</small>
+          </article>
+          <article>
+            <span>Classes</span>
+            <strong id="totalLabels">-</strong>
+            <small>rotulos</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="toolbar" aria-label="Filtros">
+        <label>
+          Conjunto
+          <select id="splitSelect"></select>
+        </label>
+        <label>
+          Classe
+          <select id="labelSelect"></select>
+        </label>
+      </section>
+
+      <section class="viz-grid">
+        <div class="panel chart-panel">
+          <div class="panel-heading">
+            <h2>Distribuicao por Classe</h2>
+            <p id="chartCaption"></p>
+          </div>
+          <div id="barChart" class="bar-chart"></div>
+        </div>
+        <div class="panel">
+          <div class="panel-heading">
+            <h2>Resumo</h2>
+            <p>Contagem e volume por grupo.</p>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Conjunto</th>
+                  <th>Classe</th>
+                  <th>Imagens</th>
+                  <th>MB</th>
+                </tr>
+              </thead>
+              <tbody id="summaryBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel gallery-panel">
+        <div class="panel-heading">
+          <h2>Amostras</h2>
+          <p id="galleryCaption"></p>
+        </div>
+        <div id="gallery" class="gallery"></div>
+      </section>
+
+      <section class="panel notebook-panel">
+        <div class="panel-heading">
+          <h2>Graficos do Notebook</h2>
+          <p>Visualizacoes equivalentes as celulas exploratorias do notebook original.</p>
+        </div>
+        <div class="notebook-grid">
+          <div class="notebook-chart">
+            <h3>Countplot: Treino</h3>
+            <div id="trainNotebookChart" class="vertical-chart"></div>
+          </div>
+          <div class="notebook-chart">
+            <h3>Countplot: Teste</h3>
+            <div id="testNotebookChart" class="vertical-chart"></div>
+          </div>
+        </div>
+        <div class="comparison-grid" id="notebookComparison"></div>
+        <div class="sample-mosaic" id="notebookMosaic"></div>
+      </section>
+
+      <section class="article-band">
+        <div class="article-copy">
+          <p class="eyebrow">Artigo cientifico</p>
+          <h2 id="articleTitle"></h2>
+          <p id="articleSummary"></p>
+          <div class="article-actions">
+            <a id="articleLink" href="#" target="_blank" rel="noreferrer">Ver artigo</a>
+            <a id="articlePdf" href="#" target="_blank" rel="noreferrer">Abrir PDF</a>
+          </div>
+        </div>
+        <dl class="article-meta">
+          <div>
+            <dt>Autores</dt>
+            <dd id="articleAuthors"></dd>
+          </div>
+          <div>
+            <dt>Publicacao</dt>
+            <dd id="articleJournal"></dd>
+          </div>
+          <div>
+            <dt>Data</dt>
+            <dd id="articlePublished"></dd>
+          </div>
+          <div>
+            <dt>Palavras-chave</dt>
+            <dd id="articleKeywords"></dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <script src="assets/dashboard-data.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
